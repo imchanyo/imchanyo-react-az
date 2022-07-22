@@ -43,7 +43,6 @@ export default class App extends Component {
     };
   };
   handleClick = (id) => {
-    console.log(id);
     const deleteTodoList = this.state.todoLists.filter(
       (item) => item.id !== id
     );
